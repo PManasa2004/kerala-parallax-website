@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: Arial, sans-serif;
+    height: 100%;
+}
+
+header {
+    background-image: url('keralabg.jpg'); /* Replace with Kerala's header image */
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header h1 {
+    font-size: 4rem;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.parallax-section {
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.parallax-section.beach {
+    background-image: url('KeralaBeaches.jpg'); /* Replace with Kerala beach image */
+}
+
+.parallax-section.backwaters {
+    background-image: url('keralabackwater.jpg'); /* Replace with Kerala backwaters image */
+}
+
+.parallax-section.mountains {
+    background-image: url('KMountains.jpg'); /* Replace with Kerala mountains image */
+}
+
+.parallax-section.culture {
+    background-image: url('Keralaculture.jpg'); /* Replace with Kerala culture image */
+}
+
+.parallax-section .content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+footer p {
+    margin: 0;
+}
